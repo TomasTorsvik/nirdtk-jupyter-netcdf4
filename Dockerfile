@@ -33,5 +33,4 @@ USER notebook
 RUN conda update -y conda pip
 
 # install latest iris version
-RUN conda install xarray dask netCDF4 bottleneck matplotlib
-RUN pip install geopy
+RUN conda env update -n base --file environment.yml
