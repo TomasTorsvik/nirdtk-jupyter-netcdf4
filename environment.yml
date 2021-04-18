@@ -1,6 +1,5 @@
 channels:
   - conda-forge
-  - cdat/label/v8.2.1
 
 dependencies:
   - xarray
@@ -9,5 +8,4 @@ dependencies:
   - bottleneck
   - matplotlib
   - geopy
-  - cdat
-  - mesalib=18.3.1
+  - xlsxwriter
