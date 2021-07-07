@@ -13,7 +13,7 @@
 # to determine the latest base image
 #=================================================================================
 
-FROM quay.io/uninett/jupyter-spark:20200713-cc26e25
+FROM quay.io/uninett/jupyter-spark:20210514-6405497
 
 LABEL authors="Tomas Torsvik"
 LABEL maintainer="tomas.torsvik@uib.no"
