@@ -13,7 +13,7 @@
 # to determine the latest base image
 #=================================================================================
 
-FROM quay.io/uninett/jupyter-spark:20210514-6405497
+FROM quay.io/nird-toolkit/jupyter-spark:20220826-8ed372f
 
 LABEL authors="Tomas Torsvik"
 LABEL maintainer="tomas.torsvik@uib.no"
@@ -30,7 +30,7 @@ COPY . /app
 
 # update the conda packages
 USER notebook
-RUN conda update -y conda pip
+#RUN conda update -y conda pip
 
 # install latest iris version
 RUN conda env update -n base --file environment.yml

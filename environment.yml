@@ -9,3 +9,4 @@ dependencies:
   - matplotlib
   - geopy
   - xlsxwriter
+  - nc-time-axis
